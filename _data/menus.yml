@@ -1,0 +1,11 @@
+- title: Me
+  url: https://dogukantuna.xyz
+  external: true
+  
+- title: Blog
+  url: /
+  external: false
+
+- title: GitHub
+  url: https://github.com/dogukantuna
+  external: true

@@ -1,0 +1,84 @@
+title: Fusion of Foundations
+description: >-
+  Musings about accelerating AI supercomputing and quantum computing.
+lang: en-US
+timezone: Europe/Budapest
+image: #
+repo: https://github.com/dogukantuna/dogukantuna.github.io
+mode: light
+
+# Profile settings
+author:
+  name: Dogukan Tuna
+  bio: "Focusing on AI supercomputing kernels, platforms for nascent quantum systems, qubit topologies and turbocharging research with accelerated simulation. Here, I share my technical notes."
+  email: dtuname@gmail.com
+  avatar: /assets/img/-v5xpw2.jpg
+
+# URL settings
+url: "https://dogukantuna.github.io"
+permalink: /:title/
+google_analytics:
+fb_appid:
+
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: post
+    comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+- _redirects
+- .htaccess
+
+exclude:
+- CNAME
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- CHANGELOG.md
+- README.md
+- node_modules
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- lighthouse.png
+- klise-*.gem
+- klise.gemspec
+
+# Plugins
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-postfiles
