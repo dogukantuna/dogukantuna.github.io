@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MoE Process Groups Configurations"
-date:   2023-10-19 00:20:00 +0000
+date:   2024-01-01 00:20:00 +0000
 categories: mixture-of-experts
 usemathjax: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tensor Decomposition"
-date:   2023-10-25 00:00:00 +0000
+date:   2024-01-05 00:00:00 +0000
 categories: tensor-decomposition
 usemathjax: true
 ---
